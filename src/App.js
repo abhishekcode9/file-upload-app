@@ -23,7 +23,7 @@ function App() {
     formData.append('file', selectedFile);
 
     try {
-      const response = await axios.post('http://13.233.148.117:8080/api/v1/file/upload', formData, {
+      const response = await axios.post('http://13.201.115.90:8080/api/v1/file/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         },
