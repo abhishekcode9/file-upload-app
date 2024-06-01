@@ -33,10 +33,10 @@ function App() {
         }
       });
 
-      // console.log('File uploaded successfully:', response.data);
+      console.log('File uploaded successfully:', response.data);
       alert('File uploaded successfully');
     } catch (error) {
-      // console.error('Error uploading file:', error);
+      console.error('Error uploading file:', error);
       alert('Error uploading file');
     } finally {
       setUploading(false);
